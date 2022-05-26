@@ -12,9 +12,9 @@ import java.util.concurrent.ThreadPoolExecutor;
  * @author: yanhom
  * @since 1.0.0
  **/
-public class MetricsConverter {
+public class MetricsConverteTest {
 
-    private MetricsConverter() {}
+    private MetricsConverteTest() {}
 
     public static ThreadPoolStats convert(DtpExecutor executor) {
         if (executor == null) {
